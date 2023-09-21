@@ -132,7 +132,7 @@
     
     function endGame() {
         
-       window.open("./score.html");
+       window.open("../score.html");
 
       
        
