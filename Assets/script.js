@@ -132,7 +132,7 @@
     
     function endGame() {
         
-       window.open("./Hiscore/score.html");
+       window.open("/score.html");
 
       
        
