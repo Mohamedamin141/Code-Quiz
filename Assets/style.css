@@ -1,0 +1,128 @@
+*{
+    background-color:whitesmoke ;
+    font-size: 16px;
+}
+
+
+nav .timer{
+text-align: right;
+margin-right: 10%;
+}
+
+nav .hiscore{
+    text-align: left;
+    font-size: 2em;
+    color: darkblue;
+}
+.container{
+
+    padding: 20px;
+    text-align: center;
+     border-radius: 10px;
+    border: 2px solid black;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    height: 500px;
+    width: 900px;
+    
+}
+ main h1{
+    color: black;
+    font-size: 2em;
+}
+main p{
+    font-size: 1.1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+main .ans-btn{
+    display: none;
+
+}
+main .btn{
+    display: flex;
+    margin-left: 10%;
+    text-align: left;
+    padding: 10px;
+    width: fit-content;
+    margin-top: 2%;
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+    border-radius: 55px;
+    font-size: 1.2em;
+    
+} 
+
+main .btn:hover{
+    background-color: blueviolet;
+}
+
+main #start-btn{
+    text-align: center;
+    padding: 6px;
+    border: 1px solid black;
+    width: 100px;
+    margin-top: 2%;
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.2em;
+}
+main #start-btn:hover{
+    background-color: blueviolet;
+}
+
+
+
+.hiscore-page{
+    /* display: none; */
+    border: 2px solid black;
+    margin-top: 12%;
+    margin-left: 25%;
+    width: 900px;
+    height: 400px;
+    background-color: aqua ;
+}
+.hiscore-page h1{
+    text-align: center;
+    font-size: 2em;
+    background-color: aqua 
+}
+.hiscore-page .initi{
+    background-color: aqua ;
+}
+.hiscore-page .initi p{
+    
+    width: 500px;
+    height: 40px;
+   margin-left: 30%;
+   font-size: 1.8em;
+   background-color: aqua ;
+   font-weight: bolder;
+
+}
+input{
+    margin-left: 30%;
+    border-radius: 150px;
+    margin-top: 0%;
+}
+
+
+
+#score-btn{
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2em;
+}
+    
+
+
+
+
+
+#ans-btn{
+    display: none;
+}
