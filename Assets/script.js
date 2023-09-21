@@ -128,11 +128,13 @@
         }
     }
     
- 
+ function openNew (){
+    window.open("./score.html");
+ } 
     
     function endGame() {
-        
-       window.open("/score.html");
+        openNew()
+       
 
       
        
