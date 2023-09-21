@@ -133,8 +133,8 @@
  } 
     
     function endGame() {
-        openNew()
-       
+        
+       window.open("/score.html");
 
       
        
