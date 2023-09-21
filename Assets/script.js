@@ -47,13 +47,14 @@
     var score = 0;
     var currentQuestionIndex = 0;
     var timer;
-    
+    var par = document.getElementById("par")
     startButton.addEventListener('click', startQuiz);
      
     function startQuiz() {   
         currentQuestionIndex = 0;
         score = 0;
         timer = 35; // set timer to 75 seconds
+        par.style.display = 'none';
         startButton.style.display = 'none';
         answerButtonElement.style.display="block"
         displayQuestion();
